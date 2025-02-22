@@ -27,6 +27,7 @@ app.post("/send-email", async (req, res) => {
     to: "praveenreddygoli8@gmail.com", // Admin email
     subject: `Message From Portfolio: ${subject}`,
     text: `From: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+    headers: { "X-Priority": "1" },
   };
 
   try {
