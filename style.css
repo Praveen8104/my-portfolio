@@ -64,7 +64,7 @@ section .title {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -248,19 +248,25 @@ section .title::after {
 }
 
 /* about section styling */
+.about .title{
+    margin-top: -30px;
+}
+
 .about .title::after {
     content: "who i am";
 }
 
 .about .about-content .left {
     width: 45%;
+    margin-top: -80px;
 }
 
 .about .about-content .left img {
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
     border-radius: 10px;
+    /* border: 1px solid black; */
 }
 
 .about .about-content .right {
