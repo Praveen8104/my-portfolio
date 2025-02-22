@@ -248,7 +248,7 @@ section .title::after {
 }
 
 /* about section styling */
-.about .title{
+.about .title {
     margin-top: -30px;
 }
 
@@ -268,7 +268,7 @@ section .title::after {
     border-radius: 10px;
 }
 
-.about-content img{
+.about-content img {
     margin-left: -50px;
 }
 
@@ -435,28 +435,46 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 90%;
+    width: 85%;
 }
 
 .skills-content .right .css::before {
-    width: 60%;
-}
-
-.skills-content .right .js::before {
     width: 80%;
 }
 
-.skills-content .right .php::before {
-    width: 50%;
+.skills-content .right .js::before {
+    width: 75%;
 }
 
-.skills-content .right .mysql::before {
+.skills-content .right .react::before {
     width: 70%;
 }
 
+.skills-content .right .nodejs::before {
+    width: 60%;
+}
+
+.skills-content .right .mysql::before {
+    width: 50%;
+}
+
+.skills-content .right .java::before {
+    width: 65%;
+}
+
+.skills-content .right .cpp::before {
+    width: 50%;
+}
+
+
+
 /* projects section styling */
 .projects .title::after {
-    content: "who with me";
+    content: "my works";
+}
+
+.projects .title{
+    margin-top: -25px;
 }
 
 .projects .carousel .card {
@@ -466,6 +484,8 @@ section .title::after {
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    cursor: pointer;
+    height: 350px;
 }
 
 .projects .carousel .card:hover {
@@ -481,22 +501,22 @@ section .title::after {
 }
 
 .projects .carousel .card:hover .box {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 .projects .carousel .card .text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
 .projects .carousel .card img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    height: 200px;
+    width: 120%;
+    /* border-radius: 50%; */
+    /* border: 1px solid crimson; */
     transition: all 0.3s ease;
+
 }
 
 .projects .carousel .card:hover img {
@@ -789,7 +809,7 @@ footer span a:hover {
         font-size: 27px;
     }
 
-    .about-content img{
+    .about-content img {
         margin-left: 0;
     }
 
