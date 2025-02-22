@@ -789,6 +789,10 @@ footer span a:hover {
         font-size: 27px;
     }
 
+    .about-content img{
+        margin-left: 0;
+    }
+
     .about .about-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
