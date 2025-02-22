@@ -655,8 +655,8 @@ footer span a:hover {
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img {
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 350px;
     }
 }
 
