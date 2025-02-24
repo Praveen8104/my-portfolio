@@ -247,6 +247,17 @@ section .title::after {
     background: none;
 }
 
+.home .social-icons i{
+    font-size: 32px;
+    margin: 20px 10px;
+    color: crimson;
+    transition: all 0.3s ease;
+}
+
+.home .social-icons i:hover {
+    color: #fff;
+}
+
 /* about section styling */
 .about .title {
     margin-top: -30px;
@@ -473,7 +484,7 @@ section .title::after {
     content: "my works";
 }
 
-.projects .title{
+.projects .title {
     margin-top: -25px;
 }
 
@@ -498,10 +509,6 @@ section .title::after {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-}
-
-.projects .carousel .card:hover .box {
-    /* transform: scale(1.05); */
 }
 
 .projects .carousel .card .text {
@@ -592,6 +599,17 @@ section .title::after {
 
 .contact .contact-content .info .sub-title {
     color: #333;
+}
+
+.contact .social-icons i{
+    font-size: 32px;
+    margin: 20px 10px;
+    color: crimson;
+    transition: all 0.3s ease;
+}
+
+.contact .social-icons i:hover {
+    color: black;
 }
 
 .contact .right form .fields {
@@ -838,5 +856,10 @@ footer span a:hover {
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+
+    .contact .social-icons i{
+        font-size: 28px;
+        margin: 15px 10px;
     }
 }
